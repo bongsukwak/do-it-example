@@ -1,0 +1,38 @@
+import React from 'react';
+import TodayPlan from './03/TodaysPlan';
+import MyComponent from './03/MyComponent';
+import PropsComponent from './03/PropsComponent';
+import ChildComponent from './03/ChildComponent';
+import BooleanComponent from './03/BooleanComponent';
+import ChildComponent2 from './03/ChildComponent2';
+import DefaultPropsComponent from './03/DefaultPropsComponent';
+
+import StateExample from './03/StateExample';
+import ForceUpdateExample from './03/ForceUpdateExample';
+
+import LifeCycleExample from './03/LifeCycleExample';
+
+
+
+
+
+
+
+class App extends React.Component {
+  render() {
+    const array = ['a', 'b', 'c'];
+    const obj = { name: '제목이다', age: 35 };
+
+    return (
+      // 아래는 jsx양식이다.
+      <div className="body">
+               
+               
+               
+        
+      </div>
+    );
+  }
+}
+
+export default App;
